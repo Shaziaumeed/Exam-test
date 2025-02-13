@@ -64,20 +64,14 @@ stroke='currentColor'
          <hr/>
         {isClick && (
           <div>
-            <div className='px-2 pt-2 pb-3 space-y-1 sm:px-3   md:hidden'>
+            <div className=' flex px-2 pt-2 pb-3 space-y-1 sm:px-3 flex-col  md:hidden'>
             <Link href="/">Home</Link>
             <Link href="/About" className='text-[#D87D4A]'>About Us</Link>
             <Link href="/Contact">Contact</Link>
             <Link href="/Signup">Signup</Link>
             <Link href="/Login">Login</Link>
-{/* <p>HOME</p>
-<p className='text-[#D87D4A]'>About Us</p>
-<p>Contact</p>
-<p>Signup</p>
-<p>Login</p> */}
             </div>
           </div>
-          
         )}
     </div>
   )
